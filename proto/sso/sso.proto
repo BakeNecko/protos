@@ -5,7 +5,7 @@ package auth;
 option go_package = "necko.sso.v1;ssov1";
 
 service Auth {
-  rpc Register (RegisterRequest) returns (RegisterResp  onse);
+  rpc Register (RegisterRequest) returns (RegisterResponse);
 }
 
 message RegisterRequest {
